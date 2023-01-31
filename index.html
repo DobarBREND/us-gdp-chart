@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Chart</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="text/x-icon" href="./icons.png">
+    
+</head>
+<body>
+    <img src="./icons.png" alt="Logo">
+   <h1>D3 Bar Chart</h1>
+    <svg id="canvas">
+        <text id="title"  x="265" y="70" style="font-size: 35px">US Gross Domestic Product</text>
+        <text id="explanation" x="140" y="100">
+            <tspan class="text" x="180" dx="0" dy="0">A comprehensive measure of U.S. economic activity. GDP measures the value of the final goods</tspan>
+            <tspan class="text" x="180" dx="0" dy="14"> and services produced in the United States (without double counting the intermediate goods</tspan>
+            <tspan class="text" x="180" dx="0" dy="14">and services used up to produce them). Changes in GDP are the most popular indicator of the </tspan>
+            <tspan class="text" x="180" dx="0" dy="14">nation's overall economic health.</tspan>
+        </text>
+   </svg>
+   <p>&copy; Vladimir Jovanović :: DobarBREND 2023</p>
+    
+</body>
+<script src="scripts.js" defer></script>
+</html>
